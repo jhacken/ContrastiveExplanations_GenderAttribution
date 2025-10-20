@@ -17,10 +17,10 @@ Submitted paper: "What Triggers my Model? Contrastive Explanations Inform Gender
 
 
 ## OPUS MT Translations
-To translate the EN Source sentences into German, we used the Helsinki OPUS MT en-de, as below
+To translate the EN Source sentences into German, we used the [Helsinki OPUS MT en-de](https://huggingface.co/Helsinki-NLP/opus-mt-en-de), as below
 
-``!pip uninstall transformers -y
-!pip install transformers accelerate bitsandbytes``
+``!pip uninstall transformers -y``
+``!pip install transformers accelerate bitsandbytes``
 
 ``from transformers import pipeline
 pipe_Helsinki = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")``
