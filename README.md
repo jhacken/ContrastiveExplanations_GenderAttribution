@@ -7,6 +7,7 @@ Data
 -   English Source Data of natural, ambiguous gender sentences
 -   OPUS Translations into German
 -   Contrastive Gender Translations (manually crafted)
+-   POS data, including POS labels for salient words of relative top 20% (Approach 4)
 -   [REDACTED] Link to Human Annotations used for comparison in this study
 
 Scripts
