@@ -7,7 +7,7 @@ Data
 -   English Source Data of natural, ambiguous gender sentences
 -   OPUS Translations into German
 -   Contrastive Gender Translations (manually crafted)
--   Link to Human Annotations used for comparison in this study
+-   [REDACTED] Link to Human Annotations used for comparison in this study
 
 Scripts
 -   Using inseq, computing contrastive explanations
