@@ -4,17 +4,22 @@ Submitted paper: "What Triggers my Model? Contrastive Explanations Inform Gender
 
 ## Included in this repo
 Data
+1. ``source_data-and-contrastive_translations``
 -   English Source Data of natural, ambiguous gender sentences
 -   OPUS Translations into German
 -   Contrastive Gender Translations (manually crafted)
+2. ``POS_data_relative20``
 -   POS data, including POS labels for salient words of relative top 20% (Approach 4)
--   [REDACTED] Link to Human Annotations used for comparison in this study
+3. [REDACTED] Link to Human Annotations used for comparison in this study
 
 Scripts
--   Using inseq, computing contrastive explanations
--   Normalisation and pre-processing steps
+1. Computing contrastive explanations (using inseq)
+-   Normalisation and pre-processing steps: ``pre_processing_saliency_analysis_contrastive_gender``
 -   Measuring different 'thresholds': Approach 1, Approach 2, Approach 3, Approach 4
--   Model-Human Comparison (example for one approach)
+    ``saliency_analysis_contrastive-gender``
+2. Linguistic Analysis (POS and Dependency Distance)
+-  ``linguistic_analysis_of_salient_words``
+3. Model-Human Comparison (example for Approach 4)
 
 
 ## OPUS MT Translations
