@@ -19,7 +19,8 @@ Scripts
     ``saliency_analysis_contrastive-gender``
 2. Linguistic Analysis (POS and Dependency Distance)
 -  ``linguistic_analysis_of_salient_words``
-3. Model-Human Comparison (example for Approach 4)
+3. Model-Human Comparison (for all Approaches, and for all annotators, comparatively also where min. 2 agree) 
+[Link to annotation files in script REDACTED for anonymity until camera-ready version]
 
 
 ## OPUS MT Translations
