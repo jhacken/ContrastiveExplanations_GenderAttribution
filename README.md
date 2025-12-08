@@ -1,6 +1,4 @@
-# Repo to include scripts and data for LREC Submission
-
-Submitted paper: "What Triggers my Model? Contrastive Explanations Inform Gender Choices by Translation Models"
+# What Triggers my Model? Contrastive Explanations Inform Gender Choices by Translation Models
 
 ## Included in this repo
 Data
