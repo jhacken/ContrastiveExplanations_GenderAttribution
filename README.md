@@ -18,10 +18,11 @@ Scripts
 -   Normalisation and pre-processing steps: ``pre_processing_saliency_analysis_contrastive_gender``
 -   Measuring different 'thresholds': Approach 1, Approach 2, Approach 3, Approach 4
     ``saliency_analysis_contrastive-gender``
-2. Model-Human Comparison (for all Approaches, and for all annotators, comparatively also where min. 2 agree) 
-``model-annotations_comparison_v2``
-3. Model-Human Overlap Analysis, including Linguistic Analysis (POS and Dependency Distance)
--  ``model_human_overlap_DE_ES``
+2. ``model-annotations_comparison_v2``
+- Model-Human Comparison (for all Approaches, and for all annotators, comparatively also where min. 2 agree) 
+3. ``model_human_overlap_DE_ES``
+- Model-Human Overlap Analysis, including Linguistic Analysis (POS and Dependency Distance)
+
 
 ## OPUS MT Translations
 To translate the EN Source sentences into German, we used [Helsinki OPUS MT en-de](https://huggingface.co/Helsinki-NLP/opus-mt-en-de) and into Spanish [Helsinki OPUS MT en-es](https://huggingface.co/Helsinki-NLP/opus-mt-en-es), as below
