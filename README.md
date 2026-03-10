@@ -4,25 +4,27 @@
 Data
 1. ``source_data-and-contrastive_translations``
 -   English Source Data of natural, ambiguous gender sentences
--   OPUS Translations into German
--   Contrastive Gender Translations (manually crafted)
-2. ``POS_data_relative20``
--   POS data, including POS labels for salient words of relative top 20% (Approach 4)
-3. [REDACTED] Link to Human Annotations used for comparison in this study
+-   OPUS Translations into German and Spanish
+-   Contrastive Gender Translations (manually crafted) both for German and Spanish
+2. ``POS_data_relative15_DE``
+-   For German: POS data, including POS labels for salient words of relative top 15% (Approach 4)
+3. ``POS_data_relative15_ES``
+-   For Spanish: POS data, including POS labels for salient words of relative top 15% (Approach 4)
+4. ``Annotations_all_majority`` & ``All_annotations_duplicates_removed_majority_min_two_agree``
+Human Annotations used for comparison in this study
 
 Scripts
 1. Computing contrastive explanations (using inseq)
 -   Normalisation and pre-processing steps: ``pre_processing_saliency_analysis_contrastive_gender``
 -   Measuring different 'thresholds': Approach 1, Approach 2, Approach 3, Approach 4
     ``saliency_analysis_contrastive-gender``
-2. Linguistic Analysis (POS and Dependency Distance)
--  ``linguistic_analysis_of_salient_words``
-3. Model-Human Comparison (for all Approaches, and for all annotators, comparatively also where min. 2 agree) 
-[Link to annotation files in script REDACTED for anonymity until camera-ready version]
-
+2. Model-Human Comparison (for all Approaches, and for all annotators, comparatively also where min. 2 agree) 
+``model-annotations_comparison_v2``
+3. Model-Human Overlap Analysis, including Linguistic Analysis (POS and Dependency Distance)
+-  ``model_human_overlap_DE_ES``
 
 ## OPUS MT Translations
-To translate the EN Source sentences into German, we used [Helsinki OPUS MT en-de](https://huggingface.co/Helsinki-NLP/opus-mt-en-de), as below
+To translate the EN Source sentences into German, we used [Helsinki OPUS MT en-de](https://huggingface.co/Helsinki-NLP/opus-mt-en-de) and into Spanish [Helsinki OPUS MT en-es](https://huggingface.co/Helsinki-NLP/opus-mt-en-es), as below
 
 ``pip uninstall transformers -y``
 
@@ -30,3 +32,5 @@ To translate the EN Source sentences into German, we used [Helsinki OPUS MT en-d
 
 ``from transformers import pipeline
 pipe_Helsinki = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")``
+
+The translation pipeline is also included in the pre_processing script file for reference.
