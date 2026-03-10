@@ -7,11 +7,11 @@ Data
 -   OPUS Translations into German and Spanish
 -   Contrastive Gender Translations (manually crafted) both for German and Spanish
 2. ``POS_data_relative15_DE``
--   For German: POS data, including POS labels for salient words of relative top 15% (Approach 4)
+-   For German: POS data, including salient words and POS labels of relative top 15% (Approach 4)
 3. ``POS_data_relative15_ES``
--   For Spanish: POS data, including POS labels for salient words of relative top 15% (Approach 4)
+-   For Spanish: POS data, including salient words and  POS labels of relative top 15% (Approach 4)
 4. ``Annotations_all_majority`` & ``All_annotations_duplicates_removed_majority_min_two_agree``
-Human Annotations used for comparison in this study
+- Human Annotations used for comparison in this study
 
 Scripts
 1. Computing contrastive explanations (using inseq)
